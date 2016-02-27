@@ -1,5 +1,6 @@
 # Linux.gitignore
 .*
+!.buildpacks
 !.coveralls.yml
 !.gitignore
 !.rspec
