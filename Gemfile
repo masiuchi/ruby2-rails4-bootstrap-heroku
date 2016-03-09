@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'wovnrb', :git => 'git://github.com/WOVNio/wovnrb.git',
+              :branch => 'fix/use_api_server'
+
 ruby '2.3.0'
 gem 'rails', '4.2.6'
 

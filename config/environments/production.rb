@@ -76,4 +76,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.wovnrb = {
+    :secret_key => 'secret',
+    :user_token => 'IRb6-',
+  }
 end
